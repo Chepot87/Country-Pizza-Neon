@@ -478,7 +478,7 @@ header {
 .visual-box.alt {
   background:
     linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.55)),
-    url('img/happy-hour.jpg') center / cover no-repeat;
+    url('img/hero-nightlife.jpg') center / cover no-repeat;
 }
 
 .visual-overlay {
@@ -574,9 +574,13 @@ header {
 .happy-panel {
   padding: 28px;
   border-radius: 30px;
-  border: 1px solid var(--line-orange);
-  background: linear-gradient(180deg, rgba(255, 140, 0, 0.08), rgba(255, 255, 255, 0.02));
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
+    url('img/happy-hour.jpg') center / cover no-repeat;
   box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
 }
 
 .happy-panel h3 {
