@@ -1,300 +1,394 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- META / BASICS -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Country Pizza | Aguadilla</title>
-  <meta
-    name="description"
-    content="Country Pizza Sport Bar en Aguadilla - Pizzas, barra, billar y más."
-  />
-  <meta
-    name="keywords"
-    content="pizza, aguadilla, barra, billar, country pizza, restaurante, puerto rico"
-  />
+  <title>Country Pizza | Bar, Billar y Ambiente Nocturno en Aguadilla</title>
+  <meta name="description" content="Country Pizza en Aguadilla, Puerto Rico. Barra, billar, deportes en pantallas grandes, buena música y happy hour. Más de 40 años siendo el lugar de jangueo." />
+  <meta name="keywords" content="country pizza, aguadilla, bar, billar, sport bar, happy hour, pizza, puerto rico, restaurante, nightlife" />
   <meta name="author" content="Country Pizza & Norvak" />
   <link rel="canonical" href="https://chepot87.github.io/country-pizza/" />
-
-  <!-- FAVICON -->
-  <link rel="icon" href="img/logo.png" type="image/svg+xml" />
-
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap"
-    rel="stylesheet"
-  />
-
-  <!-- STYLES -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- ICONS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-
-  <!-- OPEN GRAPH -->
-  <meta property="og:title" content="Country Pizza | Aguadilla" />
-  <meta
-    property="og:description"
-    content="Más de 40 años sirviendo buena comida y jangueo en Aguadilla."
-  />
-  <meta
-    property="og:image"
-    content="https://chepot87.github.io/country-pizza/img/logo.png"
-  />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <meta property="og:title" content="Country Pizza | Bar, Billar y Ambiente Nocturno en Aguadilla" />
+  <meta property="og:description" content="Más de 40 años siendo el lugar de jangueo en Aguadilla. Barra, billar, deportes en TV, buena música y happy hour." />
+  <meta property="og:image" content="https://chepot87.github.io/country-pizza/img/hero-nightlife.jpg" />
   <meta property="og:url" content="https://chepot87.github.io/country-pizza/" />
   <meta property="og:type" content="website" />
-
-  <!-- GOOGLE ANALYTICS -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-XXXXXXXXXX");
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- HEADER -->
-  <header>
-    <div class="header-container">
-      <div class="logo-brand">
-        <img src="img/logo.png" alt="Logo de Country Pizza" class="logo-img" />
-        <span class="brand-name">
-          Country Pizza<br />
-          <small>Sport Bar</small>
-        </span>
-      </div>
 
-      <nav aria-label="Navegación principal">
-        <ul>
-          <li><a href="#hero">Inicio</a></li>
-          <li><a href="#menu-section">Menú</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<header>
+  <div class="container nav">
+    <a href="#home" class="brand">
+      <img src="img/logo.png" alt="Country Pizza Logo" class="brand-logo">
+      <div class="brand-text">
+        <strong>Country Pizza</strong>
+        <span>Bar • Pool • Sports • Night Vibes</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#experience">El Ambiente</a>
+      <a href="#pool-sports">Billar & Sports</a>
+      <a href="#happy-hour">Happy Hour</a>
+      <a href="#menu">La Comida</a>
+      <a href="#visit">Visítanos</a>
+    </nav>
+
+    <a href="tel:+17878906125" class="btn btn-primary">
+      <i class="fa-solid fa-phone"></i> Llama Ahora
+    </a>
+  </div>
+</header>
 
   <main>
-    <!-- HERO -->
-    <section id="hero">
-      <h1 id="hero-title">Country Pizza</h1>
-      <h2 class="hero-headline">
-        Más de 40 años brindándoles servicio en Aguadilla Puerto Rico.
-      </h2>
-      <p>Cocina, música, barra y billares... todo en un solo lugar.</p>
 
-      <button type="button" class="btn" id="open-happy">Happy Hours!</button>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Aguadilla nightlife energy</span>
+          <h1>
+            WHERE THE <span class="outline">MUSIC HITS</span>,
+            THE DRINKS FLOW,
+            AND THE NIGHT KEEPS MOVING
+          </h1>
+          <p>
+            Country Pizza es más que comida. Es el spot de jangueo en Aguadilla donde la noche se estira sola: bebidas frías, mesas de billar, deportes en pantallas grandes, buena música y más de 40 años haciéndolo bien.
+          </p>
+          <div class="hero-actions">
+            <a href="#happy-hour" class="btn btn-primary">
+              <i class="fa-solid fa-martini-glass-citrus"></i> Ver Happy Hour
+            </a>
+            <a href="#pool-sports" class="btn btn-secondary">
+              <i class="fa-solid fa-tv"></i> Ver el Ambiente
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>Pantallas Grandes</strong>
+              <span>Deportes, peleas y game-day en grande. Nada de pantallitas.</span>
+            </div>
+            <div class="stat">
+              <strong>Sala de Billar</strong>
+              <span>Mesas de billar para competir chill y quedarse toda la noche.</span>
+            </div>
+            <div class="stat">
+              <strong>Happy Hour</strong>
+              <span>El pretexto perfecto para llegar temprano y quedarse tarde.</span>
+            </div>
+            <div class="stat">
+              <strong>Buena Música</strong>
+              <span>El ambiente suena bien. El silencio no es opción aquí.</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <h3>Esta Noche en Country</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Pide una bebida en la barra, coge el juego en TV y luego métele a las mesas de billar.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Trae el grupo para happy hour, bocados tardíos, música y un ambiente sin prisa.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <span>Hecho para las noches que empiezan casual y terminan siendo el plan completo.</span>
+            </li>
+          </ul>
+          <div class="hero-note">
+            Abiertos todos los días. Happy Hour lunes a jueves. Almuerzo de 11 AM a 2 PM.
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <!-- MODAL: HAPPY HOURS -->
-    <div
-      id="happy-modal"
-      class="modal"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="happy-title"
-      aria-hidden="true"
-    >
-      <div class="modal-content happy-modal-content">
-        <span id="close-happy" class="close" aria-label="Cerrar modal">&times;</span>
-        <h2 id="happy-title">Happy Hours</h2>
+    <section class="vibe-strip">
+      <div class="marquee">
+        <span>Ambiente de Barra</span>
+        <span>Mesas de Billar</span>
+        <span>Deportes en TV</span>
+        <span>Happy Hour</span>
+        <span>Buena Música</span>
+        <span>Nightlife Aguadilla</span>
+        <span>Ambiente de Barra</span>
+        <span>Mesas de Billar</span>
+        <span>Deportes en TV</span>
+        <span>Happy Hour</span>
+        <span>Buena Música</span>
+        <span>Nightlife Aguadilla</span>
+      </div>
+    </section>
 
-        <div class="cards-container">
-          <div class="card">
-            <i class="fa-solid fa-beer-mug-empty happy-icon" aria-hidden="true"></i>
-            <span>2x1 en cervezas locales – 5pm a 7pm</span>
+    <section class="section" id="experience">
+      <div class="container">
+        <span class="eyebrow">Lo que lo hace diferente</span>
+        <h2 class="section-title">LA NOCHE ES EL PRODUCTO</h2>
+        <p class="section-copy">
+          La comida está buena, pero la razón por la que la gente llega y se queda es el ambiente completo. Barra, juegos, pantallas, música y esa energía social que convierte un spot cualquiera en el plan de la noche.
+        </p>
+        <div class="experience-grid">
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-beer-mug-empty"></i></div>
+            <h3>La Barra</h3>
+            <p>Bebidas frías, vibra relajada y una barra hecha para quedarse, no para apurarte a salir.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-circle-dot"></i></div>
+            <h3>Sala de Billar</h3>
+            <p>Las mesas de billar le dan movimiento y personalidad al lugar. Aquí no es sentarse, comer e irse.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-tv"></i></div>
+            <h3>Noches de Deportes</h3>
+            <p>Pantallas grandes, game-day, peleas, playoffs y esas reacciones en grupo que hacen el momento más grande.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-music"></i></div>
+            <h3>La Música</h3>
+            <p>El sonido importa. La música está viva, energética y forma parte de toda la experiencia nocturna.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pool-sports">
+      <div class="container split">
+        <div class="visual-box">
+          <div class="visual-overlay">
+            <h3>BILLAR. VIBRA REAL.</h3>
+            <p>La sala de billar es una de las razones principales para estar aquí, no un detalle escondido detrás de las fotos de pizza.</p>
           </div>
+        </div>
+        <div class="feature-grid">
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Perfecto para grupos</h3>
+            <p>Comen, toman, ven el juego, juegan billar y se mueven por el lugar sin que se sienta muerto ni demasiado formal.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h3>Ideal para game nights</h3>
+            <p>Fútbol americano, baloncesto, UFC, boxeo. El ambiente y el layout hacen que cada evento sea mejor aquí.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-user-group"></i></div>
+            <h3>Energía social</h3>
+            <p>Hablando, riendo, viendo el juego, jugando billar y pidiendo otra ronda. Así se ve una noche en Country.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+            <h3>Identidad nocturna</h3>
+            <p>Más de 40 años siendo el spot. No es coincidencia, es consistencia, buen ambiente y saber recibir gente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-          <div class="card">
-            <i class="fa-solid fa-pizza-slice happy-icon" aria-hidden="true"></i>
-            <span>Combo Pizza + Cerveza $9.99</span>
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow">El lugar habla solo</span>
+        <h2 class="section-title">MÍRALO ANTES DE LLEGAR</h2>
+        <p class="section-copy">
+          Luces, bebidas, pantallas, gente pasándola bien, la barra, el billar y el mood de noche completo. Esto es Country Pizza después de oscurecer.
+        </p>
+        <div class="gallery-grid">
+          <article class="gallery-item large">
+            <img src="img/bar-area.jpg" alt="Barra de Country Pizza de noche">
+            <div class="gallery-caption">
+              <strong>La barra de noche</strong>
+              <span>Botellas, luces y esa energía social de fin de semana.</span>
+            </div>
+          </article>
+          <article class="gallery-item">
+            <img src="img/billar.jpeg" alt="Sala de billar en Country Pizza">
+            <div class="gallery-caption">
+              <strong>Sala de billar</strong>
+              <span>Competencia chill. Exactamente como debe ser.</span>
+            </div>
+          </article>
+          <article class="gallery-item">
+            <img src="img/tvs-sports.jpg" alt="Deportes en pantallas grandes en Country Pizza">
+            <div class="gallery-caption">
+              <strong>Deportes en TV</strong>
+              <span>Game nights que se sienten como eventos de verdad.</span>
+            </div>
+          </article>
+          <article class="gallery-item">
+            <img src="img/drinks-night.jpg" alt="Cócteles y bebidas de noche en Country Pizza">
+            <div class="gallery-caption">
+              <strong>Bebidas & cócteles</strong>
+              <span>Happy hour merece fotos que hagan saliva.</span>
+            </div>
+          </article>
+          <article class="gallery-item">
+            <img src="img/music-vibes.jpg" alt="Ambiente musical y nightlife en Country Pizza">
+            <div class="gallery-caption">
+              <strong>Buena música</strong>
+              <span>El sonido es parte del ambiente. Siempre.</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="happy-hour">
+      <div class="container happy-grid">
+        <div class="happy-panel">
+          <span class="eyebrow">De tarde a noche</span>
+          <h3>HAPPY HOUR QUE DA GANAS DE LLEGAR TEMPRANO</h3>
+          <p>
+            El happy hour aquí no es un detalle de menú que nadie nota. Es la razón para llegar antes, quedarse más y hacer del plan de la tarde el plan de toda la noche.
+          </p>
+          <div class="happy-times">
+            <div class="time-row">
+              <strong>Lunes a Jueves</strong>
+              <span>4 PM – 7 PM</span>
+            </div>
+            <div class="time-row">
+              <strong>Especiales de Bebidas</strong>
+              <span>Cervezas • Cocktails • Shots</span>
+            </div>
+            <div class="time-row">
+              <strong>Mejor combinado con</strong>
+              <span>Billar • Música • Juegos en TV</span>
+            </div>
+            <div class="time-row">
+              <strong>Dog Friendly</strong>
+              <span>Trae a tu perro también</span>
+            </div>
           </div>
-
-          <div class="card">
-            <i class="fa-solid fa-circle-dot happy-icon" aria-hidden="true"></i>
-            <span>Juega billar GRATIS con tu primera ronda</span>
+        </div>
+        <div class="visual-box alt">
+          <div class="visual-overlay">
+            <h3>EMPIEZA CON HAPPY HOUR. QUÉDATE TODA LA NOCHE.</h3>
+            <p>Esa es la historia. No hace falta más explicación. Solo hace falta llegar.</p>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- MODAL: MENÚ -->
-    <div
-      id="menu-modal"
-      class="modal"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="menu-title"
-      aria-hidden="true"
-    >
-      <div class="modal-content">
-        <span id="close-menu" class="close" aria-label="Cerrar modal">&times;</span>
-        <h2 id="menu-title">Menú de Almuerzo</h2>
-        <img
-          src="img/country-menu-prueba.png"
-          alt="Menú del restaurante"
-          class="modal-img"
-          loading="lazy"
-        />
-      </div>
-    </div>
-
-    <!-- SECCIÓN: MENÚ -->
-    <section id="menu-section">
-      <h2>Variedad de platos</h2>
-      <p>Pizzas, alitas, mofongo y picadera criolla al estilo de la casa.</p>
-
-      <div class="gallery">
-        <img
-          src="img/pizza.png"
-          alt="Pizza caliente con pepperoni y queso"
-          loading="lazy"
-        />
-        <img
-          src="img/surtido.png"
-          alt="Surtido de picadera criolla"
-          loading="lazy"
-        />
-        <img
-          src="img/mofongo.png"
-          alt="Mofongo con carne frita y ajo"
-          loading="lazy"
-        />
-      </div>
-
-      <button type="button" class="btn" id="open-menu">MENÚ DE ALMUERZO</button>
     </section>
 
-    <!-- SECCIÓN: BARRA -->
-    <section id="barra">
-      <h2>Billares y La Mejor Vibra</h2>
-      <p>Ambiente para jangueo con barra, billares y buena música.</p>
-
-      <img
-        src="img/billar.jpeg"
-        alt="Barra iluminada y mesas de billar"
-        class="full-img"
-        loading="lazy"
-      />
-      <img
-        src="img/salon-billar.png"
-        alt="Amplio salón de billar"
-        class="full-img"
-        loading="lazy"
-      />
-
-      <ul class="highlights">
-        <li>✔ Take away</li>
-        <li>✔ Eat in</li>
-        <li>✔ Dog friendly</li>
-      </ul>
-    </section>
-
-    <!-- SECCIÓN: CONTACTO -->
-    <section id="contacto">
-      <h2>Visítanos</h2>
-
-      <div class="info-line">
-        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-        <span>Carr. 110 Km 9, Bo. Maleza, Aguadilla, PR</span>
-      </div>
-
-      <div class="info-line">
-        <i class="fas fa-clock" aria-hidden="true"></i>
-        <span>Abierto todos los días: 4 pm – 12 am</span>
-      </div>
-
-      <div class="info-line">
-        <i class="fas fa-utensils" aria-hidden="true"></i>
-        <span>Almuerzo: 11 am – 2 pm</span>
-      </div>
-
-      <div class="info-line">
-        <i class="fas fa-phone" aria-hidden="true"></i>
-        <a href="tel:17878906125">Llamar ahora: (787) 890-6125</a>
+    <section class="section" id="menu">
+      <div class="container">
+        <span class="eyebrow">La comida también</span>
+        <h2 class="section-title">LA COMIDA RESPALDA EL AMBIENTE</h2>
+        <p class="section-copy">
+          Pizza, alitas, mofongo y picadera criolla al estilo de la casa. La comida es parte de la experiencia, y está lo suficientemente buena como para ser la razón principal de venir también.
+        </p>
+        <div class="menu-grid">
+          <article class="menu-card" style="background-image: url('img/pizza.jpg');">
+            <div class="menu-card-content">
+              <h3>Pizza de la Casa</h3>
+              <p>Pizzas cargadas, favoritos clásicos y slices de media noche que justifican una ronda más.</p>
+            </div>
+          </article>
+          <article class="menu-card" style="background-image: url('img/wings.jpg');">
+            <div class="menu-card-content">
+              <h3>Alitas & Picadera</h3>
+              <p>Perfectas para la mesa, perfectas para game night, y perfectas para la persona que dice que solo viene a comer.</p>
+            </div>
+          </article>
+          <article class="menu-card" style="background-image: url('img/drinks.jpg');">
+            <div class="menu-card-content">
+              <h3>Bebidas</h3>
+              <p>Cervezas, bebidas mixtas y lo que necesitas para que el grupo siga con energía sin esfuerzo.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <!-- SECCIÓN: REDES + MAPA -->
-    <section id="social-map">
-      <h2>Conéctate con nosotros</h2>
-      <p>Síguenos en nuestras redes sociales y visita nuestro local.</p>
+    <section class="section cta" id="visit">
+      <div class="container">
+        <div class="cta-grid">
+          <div class="cta-box">
+            <span class="eyebrow">Aparece esta noche</span>
+            <h2>BUENA COMIDA. <strong style="color: #00eaff; text-shadow: 0 0 6px #00eaff, 0 0 12px #00eaff;">CERVEZA FRIA.</strong> BUENA MÚSICA.</h2>
+            <p>
+              Ya sea que vengas por el juego, las mesas de billar, el happy hour o simplemente porque necesitas el ambiente, Country Pizza es el spot que se elige solo cuando quieres una buena noche en Aguadilla.
+            </p>
+            <div class="cta-actions">
+              <a href="tel:+17878906125" class="btn btn-primary">
+                <i class="fa-solid fa-phone"></i> (787) 890-6125
+              </a>
+              <a href="https://www.google.com/maps/place/Country+Pizza/@18.5045804,-67.1147657,15z/data=!4m15!1m8!3m7!1s0x8c029616f8e64d75:0x7356a68ba6d44dca!2sCountry+Pizza!8m2!3d18.5045804!4d-67.1147657!10e5!16s%2Fg%2F1pv1lv50n!3m5!1s0x8c029616f8e64d75:0x7356a68ba6d44dca!8m2!3d18.5045804!4d-67.1147657!16s%2Fg%2F1pv1lv50n?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-solid fa-location-dot"></i> Cómo Llegar
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Opciones para todo el mundo</h3>
+            <p>
+              Take away, eat in y dog friendly. Da igual si vienes solo, en pareja o con todo el grupo. El lugar está hecho para acomodar a todo el que llega con ganas de pasarla bien.
+            </p>
+          </div>
+        </div>
 
-      <div class="social-icons">
-        <a
-          href="https://www.facebook.com/CountryPizzaa"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Facebook"
-        >
-          <i class="fab fa-facebook-f" aria-hidden="true"></i>
-        </a>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Dirección</h4>
+            <p>Carr. 110 Km 9, Bo. Maleza<br>Aguadilla, Puerto Rico</p>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <h4>Teléfono</h4>
+            <a href="tel:+17878906125">(787) 890-6125</a>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-clock"></i>
+            <h4>Horario</h4>
+            <p>Todos los días: 4 PM – 12 AM<br>Almuerzo: 11 AM – 2 PM</p>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-utensils"></i>
+            <h4>Servicios</h4>
+            <p>Take Away · Eat In · Dog Friendly</p>
+          </article>
+        </div>
 
-        <a
-          href="https://www.instagram.com/countrypizzapr"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <i class="fab fa-instagram" aria-hidden="true"></i>
-        </a>
-
-        <a
-          href="https://wa.me/17878914860"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-        >
-          <i class="fab fa-whatsapp" aria-hidden="true"></i>
-        </a>
-      </div>
-
-      <p>Encuéntranos en:</p>
-
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15134.149722116716!2d-67.12504398730123!3d18.50460047092597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c029616f8e64d75%3A0x7356a68ba6d44dca!2sCountry%20Pizza!5e0!3m2!1sen!2sus!4v1750828525017!5m2!1sen!2sus"
-          width="100%"
-          height="300"
-          style="border: 0; border-radius: 12px; margin-top: 20px;"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Mapa de Country Pizza en Aguadilla"
-        ></iframe>
+        <div class="map-container" style="margin-top:40px;border-radius:24px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15134.149722116716!2d-67.12504398730123!3d18.50460047092597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c029616f8e64d75%3A0x7356a68ba6d44dca!2sCountry%20Pizza!5e0!3m2!1sen!2sus!4v1750828525017!5m2!1sen!2sus"
+            width="100%"
+            height="320"
+            style="border:0;display:block;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Country Pizza en Aguadilla, Puerto Rico">
+          </iframe>
+        </div>
       </div>
     </section>
+
   </main>
 
-  <!-- FOOTER -->
   <footer>
-    <div class="footer-container">
-      <div class="footer-logo">
-        <img src="img/logo.png" alt="Logo Country Pizza" loading="lazy" />
-      </div>
-
-      <div class="footer-info">
-        <p>© 2025 Country Pizza</p>
-        <p>
-          Hecho con ❤️ por
-          <a href="https://chepot87.github.io/Norvak-Version-B/" target="_blank" rel="noopener noreferrer">Norvak©</a>
-        </p>
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Country Pizza. Más de 40 años en Aguadilla.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/countrypizzapr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/CountryPizzaa" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/17878914860" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
       </div>
     </div>
   </footer>
 
-  <!-- JS -->
   <script src="script.js"></script>
 </body>
 </html>

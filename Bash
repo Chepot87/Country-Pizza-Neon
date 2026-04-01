@@ -1,0 +1,17 @@
+country-pizza/
+│
+├── index.html
+├── style.css
+├── script.js
+└── img/
+    ├── hero-nightlife.jpg
+    ├── pool-room.jpg
+    ├── happy-hour.jpg
+    ├── bar-area.jpg
+    ├── pool-action.jpg
+    ├── tvs-sports.jpg
+    ├── drinks-night.jpg
+    ├── music-vibes.jpg
+    ├── pizza.jpg
+    ├── wings.jpg
+    └── drinks.jpg
