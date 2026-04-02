@@ -5,8 +5,6 @@
    ================================================ */
 
 :root {
-  --bg:           #070707;
-  --bg-2:         #0f0f12;
   --panel:        rgba(255, 140, 0, 0.06);
   --panel-strong: rgba(255, 140, 0, 0.1);
   --text:         #f5f5f5;
@@ -35,9 +33,8 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background:
-    radial-gradient(circle at top left,  rgba(255, 34,  0,  0.14), transparent 30%),
-    radial-gradient(circle at top right, rgba(0,  170, 255, 0.10), transparent 25%),
-    linear-gradient(180deg, #050505 0%, #0a0a0d 45%, #070707 100%);
+    url('img/bg-main.jpg') center / cover no-repeat fixed;
+  background-color: #050507;
   color: var(--text);
   overflow-x: hidden;
 }
@@ -242,7 +239,7 @@ header {
   background:
     radial-gradient(circle at 20% 20%, rgba(255, 140, 0, 0.14), transparent 22%),
     radial-gradient(circle at 80% 25%, rgba(0, 170, 255, 0.10), transparent 22%),
-    radial-gradient(circle at 50% 80%, rgba(255, 34,  0,  0.10), transparent 25%);
+    radial-gradient(circle at 50% 80%, rgba(255, 34, 0, 0.10), transparent 25%);
   z-index: -1;
 }
 
@@ -574,9 +571,9 @@ header {
 .happy-panel {
   padding: 28px;
   border-radius: 30px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-orange);
   background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
+    linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.85)),
     url('img/happy-hour.jpg') center / cover no-repeat;
   box-shadow: var(--shadow);
   position: relative;
@@ -736,6 +733,7 @@ header {
 }
 
 .contact-card i {
+  display: block;
   font-size: 1.2rem;
   color: var(--orange);
   text-shadow: 0 0 10px rgba(255, 140, 0, 0.5);

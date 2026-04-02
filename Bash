@@ -15,3 +15,5 @@ country-pizza/
     ├── pizza.jpg
     ├── wings.jpg
     └── drinks.jpg
+    └── bg-main.jpg
+    
